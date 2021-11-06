@@ -1,14 +1,14 @@
 ---
 app:
-  name: OpenDAX
-  domain: app.local
-  subdomain: www
+  name: SimpleDex
+  domain: simpledex.net
+  subdomain: trade
   show_landing: true
 render_protect: false
 csrfEnabled: false
 ssl:
   enabled: false
-  email: support@example.com
+  email: info-sdex@simpledex.net
 updateVersions: false
 images:
   peatio: quay.io/openware/peatio:2.6.48
