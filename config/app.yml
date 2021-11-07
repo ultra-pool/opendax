@@ -7,13 +7,13 @@ app:
 render_protect: false
 csrfEnabled: false
 ssl:
-  enabled: false
+  enabled: true
   email: info-sdex@simpledex.net
 updateVersions: false
 images:
   peatio: quay.io/openware/peatio:2.6.48
   barong: quay.io/openware/barong:2.6.44
-  frontend: quay.io/openware/baseapp:2.6.24
+  frontend: docker.io/ultrapool/baseapp:2.6.24
   tower: quay.io/openware/tower:2.6.66
   rango: quay.io/openware/rango:2.6.1
 finex:
@@ -21,7 +21,7 @@ finex:
   image: quay.io/openware/finex:2.6.39
   license_key: changeme
 vendor:
-  frontend: git@github.com:openware/baseapp.git
+  frontend: git@github.com:ultra-pool/baseapp.git
 kyc:
   provider: local
   authorization_token: changeme
